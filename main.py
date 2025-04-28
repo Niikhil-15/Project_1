@@ -1,5 +1,4 @@
-# File: student_performance_app/main.py
-
+#importing necessary libraries
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -8,8 +7,8 @@ import plotly.express as px
 # Title
 st.title("📘 Student Habits vs Academic Performance Dashboard")
 
-# File uploader
-dataset = r"data/student_habits_performance.csv"#st.file_uploader("Upload Student Habits CSV", type=["csv"])
+# File Path
+dataset = r"data/student_habits_performance.csv"
 
 if dataset:
     # Read CSV
