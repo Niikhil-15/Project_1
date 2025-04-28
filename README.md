@@ -1,1 +1,1 @@
-Created a Dashboard using "student_habit_performance.csv" dataset availiable on Kaggle.
+Created a Dashboard using "student_habit_performance.csv" dataset available on Kaggle.
