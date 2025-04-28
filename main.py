@@ -9,7 +9,7 @@ import plotly.express as px
 st.title("📘 Student Habits vs Academic Performance Dashboard")
 
 # File uploader
-dataset = r"D:\Python\Data_Area\student_habits_performance.csv"#st.file_uploader("Upload Student Habits CSV", type=["csv"])
+dataset = r"data/student_habits_performance.csv"#st.file_uploader("Upload Student Habits CSV", type=["csv"])
 
 if dataset:
     # Read CSV
